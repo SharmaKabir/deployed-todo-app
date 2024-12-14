@@ -1,0 +1,11 @@
+{
+  "name": "depoyed-to-do-app",
+  "version": "1.0.0",
+  
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
+    "start": "node ./server/server.js",
+    "client":" cd client && npm start"
+  },
+  "description": ""
+}
